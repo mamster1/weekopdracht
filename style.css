@@ -1,0 +1,35 @@
+ body {
+
+
+
+ }
+
+img {
+  border: 5px solid purple;
+  border-radius: 75%;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+table {
+  margin-left: 20px;
+}
+.container {
+  background-color: beige;
+  width: 900px;
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-template-rows: repeat(4 300px);
+  grid-gap: 20px;
+  justify-items: left;
+  justify-content: center;
+  border: 3px solid purple;
+  font-family: 'PT Sans', sans-serif;
+
+
+}
+
+.item {
+font-size: 18px;
+margin-left: 20px;
+}
